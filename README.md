@@ -1,3 +1,8 @@
 # WB-Hiscores
 
-Winnie Blues OSRS discord server Hall Of Fame
+WB OSRS discord server Hall Of Fame
+
+## Dependencies
+
+[LWP::Simple](https://metacpan.org/pod/LWP::Simple)   
+[LWP::Protocol::https](https://metacpan.org/pod/LWP::Protocol::https)
