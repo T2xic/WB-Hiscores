@@ -159,7 +159,6 @@ sub getfile {
 sub send_message {
     my ($content, $webhook) = @_;
     my $command = qq(curl -H "Content-Type: application/json" -d '{"username": "WB", "content": "$content"}' "$webhook");
-    #print("executing $command");
     system($command);
 }
 
